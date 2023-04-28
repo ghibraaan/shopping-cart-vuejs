@@ -1,0 +1,62 @@
+:root {
+    --bs-black: #2C3333;
+    --bs-red: #df2e38;
+    --bs-yellow: #EBB02D;
+    --bs-dark-grey: #525050;
+    --bs-grey: #F0EEED;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: var(--bs-black);
+}
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.product {
+    background-color: #f5f5f5;
+}
+
+.shop-cart {
+    background-color: white;
+    /* box-shadow: -3px 0 8px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.card {
+    /* border: none; */
+    height: 70vh;
+    overflow-y: auto;
+}
+
+/* .row {
+    height: 100vh;
+} */
+
+/* .container-fluid {
+    border: 1px solid darksalmon;
+} */
+
+/* .border {
+    border: 2px solid black;
+} */
